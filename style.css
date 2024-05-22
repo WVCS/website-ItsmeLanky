@@ -1,3 +1,42 @@
 body {
 
 }
+h1 {
+  font-family: system-ui;
+  color: aqua;
+  text-align: center;
+  text-decoration: overline;
+  letter-spacing: -3px;
+  word-spacing: 10px;
+  text-shadow: 10px 10px 5px blue;
+}
+
+body {
+  background-color: #00b4d8;
+}
+
+img{
+  width: 50%;
+  border: dotted blue 8px
+}
+
+h1:hover {
+  color: #90e0ef;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: blue;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 10px;
+  color: white; 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
